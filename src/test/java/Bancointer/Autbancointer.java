@@ -38,7 +38,7 @@ WebDriver driver;
 
 	//@Ignore
 	@Test
-	public void test() throws Exception {
+	public void testeaberturadeconta () throws Exception {
 		
 		Thread.sleep(4000);
 		driver.findElement(By.cssSelector("button")).click();
