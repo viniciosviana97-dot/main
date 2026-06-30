@@ -43,7 +43,7 @@ WebDriver driver;
 		Thread.sleep(4000);
 		driver.findElement(By.cssSelector("button")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.id("name")).sendKeys("vinicios viana");
+		driver.findElement(By.id("name")).sendKeys("cristiano ronaldo");
 		
 		Thread.sleep(2000);
 		String texto= driver.findElement(By.xpath("(//h2)[9] ")).getText();
